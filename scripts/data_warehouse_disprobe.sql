@@ -1,5 +1,16 @@
 create schema warehouse;
 
+DROP TABLE IF EXISTS warehouse.factVenta;
+DROP TABLE IF EXISTS warehouse.factTraspaso;
+DROP TABLE IF EXISTS warehouse.factIngresos;
+DROP TABLE IF EXISTS warehouse.factConsumos;
+DROP TABLE IF EXISTS warehouse.dimLote;
+DROP TABLE IF EXISTS warehouse.dimBodega;
+DROP TABLE IF EXISTS warehouse.dimArticulo;
+DROP TABLE IF EXISTS warehouse.dimClientes;
+DROP TABLE IF EXISTS warehouse.dimFecha;
+DROP TABLE IF EXISTS warehouse.dimProveedor;
+
 create table warehouse.dimLote(
     lote_key int primary key identity,
     lote_id varchar(15) not null,
@@ -74,9 +85,6 @@ create table warehouse.dimClientes(
 	cargo_contacto varchar(30) not null,
 	pais varchar(40) not null,
 	tipo_cliente varchar(40) not null,
-	fecha_inicio_vigencia date not null,
-	fecha_fin_vigencia date,
-	registro_vigente varchar(2) default('SI')
 );
 
 create table warehouse.dimFecha (

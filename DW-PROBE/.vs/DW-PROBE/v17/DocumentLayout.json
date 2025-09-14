@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\frane\\Documentos\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\",
+  "WorkspaceRootPath": "E:\\frane\\Documents\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D863A161-2A85-B989-8E14-23FD3A45A000}|DW-PROBE\\DW-PROBE.dtproj|C:\\Users\\frane\\Documentos\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{D863A161-2A85-B989-8E14-23FD3A45A000}|DW-PROBE\\DW-PROBE.dtproj|solutionrelative:DW-PROBE\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{D863A161-2A85-B989-8E14-23FD3A45A000}|DW-PROBE\\DW-PROBE.dtproj|E:\\frane\\Documents\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\FactConsumos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{D863A161-2A85-B989-8E14-23FD3A45A000}|DW-PROBE\\DW-PROBE.dtproj|solutionrelative:DW-PROBE\\FactConsumos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Package.dtsx [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\frane\\Documentos\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\Package.dtsx",
-              "RelativeDocumentMoniker": "DW-PROBE\\Package.dtsx",
-              "ToolTip": "C:\\Users\\frane\\Documentos\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\Package.dtsx [Dise\u00F1o]",
-              "RelativeToolTip": "DW-PROBE\\Package.dtsx [Dise\u00F1o]",
+              "Title": "FactConsumos.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\frane\\Documents\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\FactConsumos.dtsx",
+              "RelativeDocumentMoniker": "DW-PROBE\\FactConsumos.dtsx",
+              "ToolTip": "E:\\frane\\Documents\\Especializacion\\proyecto-especializacion-bd\\DW-PROBE\\DW-PROBE\\FactConsumos.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "DW-PROBE\\FactConsumos.dtsx [Dise\u00F1o]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-09-04T03:04:17.029Z",
+              "WhenOpened": "2025-09-12T02:59:15.106Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

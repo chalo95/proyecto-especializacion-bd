@@ -1,0 +1,889 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/11/2025 8:59:15 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="FRAN-PC"
+  DTS:CreatorName="FRAN-PC\frane"
+  DTS:DTSID="{DDCCC17D-7B0C-46F3-8F52-ABC0C417BB32}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="2058"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{49E2C22E-2451-4A17-9E49-8AA6A60ED133}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ExactusERP6.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{F2C97615-F37A-4878-897E-0E23975F8123}"
+      DTS:ObjectName="localhost.ExactusERP6.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ExactusERP6;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package1-{F2C97615-F37A-4878-897E-0E23975F8123}localhost.ExactusERP6.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACmrrCbQHG/ttvmvmEOC8mLsvLg0kEOZ3nm3gKY9sxhZQAAAAAOgAAAAAIAACAAAACZZ9AfHHvSkB3J36GrXucbvSYfNal+c2fCAuEA6QBuoSAAAABIO4s53wO7a+t7cFo5RAg4SN8b9SQbbxC0uTh6d3q6rkAAAAA8I9KswjlBpO4IX8IPu2jaiXPdBktPAyMktUULvsayATfhe3svlPeehMSJu9nXShy2CH5nIfABwc6TT3oeoubP</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{BFE133DE-D9E0-4894-904F-5F0BED91D35C}"
+      DTS:ObjectName="localhost.ProbeDataWarehouse.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package1-{BFE133DE-D9E0-4894-904F-5F0BED91D35C}localhost.ProbeDataWarehouse.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB5thjap3D/Wm2o5BE4eXPcjCk3Z9Vpq13f+aN6Ida88AAAAAAOgAAAAAIAACAAAAAay8aaE1Ns+rtVWjCcxqeqgnhnUFK0+u/qhLMgmGal0yAAAABnZ9cGNF5CAXxF+NbPJ1hAhoqRbzcId86EbN1NJDC/I0AAAAAJEXa2XmYZKDlI5aOAnsm81QTAvGGFFvaOYm+B5OyB4itBzPtCa/TNHti2JJWHdpH6oXYfwcPqwTs1irqk7xVJ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Cargar FactConsumos"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{A2F17BC0-BD81-4283-B7F2-93C6C5EAB3C1}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cargar FactConsumos"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Cargar FactConsumos\Cargar Datos"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Cargar Datos"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"warehouse"."factConsumos"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar FactConsumos\Cargar Datos.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[consumo_id]"
+                      cachedDataType="i4"
+                      cachedName="consumo_id"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[consumo_id]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[consumo_id]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[fecha_hora_transaccion]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="fecha_hora_transaccion"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_hora_transaccion]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[fecha_hora_transaccion]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[tipo_movimiento]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="tipo_movimiento"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_movimiento]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[tipo_movimiento]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[CANTIDAD]"
+                      cachedDataType="numeric"
+                      cachedName="CANTIDAD"
+                      cachedPrecision="28"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANTIDAD]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[precio_unitario]"
+                      cachedDataType="numeric"
+                      cachedName="precio_unitario"
+                      cachedPrecision="28"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[precio_unitario]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[precio_unitario]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[costo]"
+                      cachedDataType="numeric"
+                      cachedName="costo"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[costo]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[costo]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[EXISTENCIA_MAXIMA]"
+                      cachedDataType="numeric"
+                      cachedName="EXISTENCIA_MAXIMA"
+                      cachedPrecision="28"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[existencia_maxima]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MAXIMA]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[EXISTENCIA_MINIMA]"
+                      cachedDataType="numeric"
+                      cachedName="EXISTENCIA_MINIMA"
+                      cachedPrecision="28"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[existencia_minima]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MINIMA]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[cantidad_disponible_neta]"
+                      cachedDataType="numeric"
+                      cachedName="cantidad_disponible_neta"
+                      cachedPrecision="29"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_disponible_neta]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[cantidad_disponible_neta]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[valor_inventario_neto]"
+                      cachedDataType="numeric"
+                      cachedName="valor_inventario_neto"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[valor_inventario_neto]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[valor_inventario_neto]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[punto_medio_inv]"
+                      cachedDataType="numeric"
+                      cachedName="punto_medio_inv"
+                      cachedPrecision="31"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[punto_medio_inv]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[punto_medio_inv]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[detalle_id]"
+                      cachedDataType="i4"
+                      cachedName="detalle_id"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[detalle_consumo_id]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[detalle_id]" />
+                    <inputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[CANT_DISPONIBLE]"
+                      cachedDataType="numeric"
+                      cachedName="CANT_DISPONIBLE"
+                      cachedPrecision="28"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_disponible_bruta]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANT_DISPONIBLE]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[consumo_key]"
+                      dataType="i4"
+                      name="consumo_key" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[consumo_id]"
+                      dataType="i4"
+                      name="consumo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_id]"
+                      dataType="i4"
+                      name="fecha_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[articulo_id]"
+                      dataType="i4"
+                      name="articulo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[bodega_id]"
+                      dataType="i4"
+                      name="bodega_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_id]"
+                      dataType="i4"
+                      name="lote_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[detalle_consumo_id]"
+                      dataType="i4"
+                      name="detalle_consumo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_hora_transaccion]"
+                      dataType="dbTimeStamp"
+                      name="fecha_hora_transaccion" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_movimiento]"
+                      dataType="wstr"
+                      length="15"
+                      name="tipo_movimiento" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad]"
+                      dataType="numeric"
+                      name="cantidad"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[precio_unitario]"
+                      dataType="numeric"
+                      name="precio_unitario"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[costo]"
+                      dataType="numeric"
+                      name="costo"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[existencia_minima]"
+                      dataType="numeric"
+                      name="existencia_minima"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[existencia_maxima]"
+                      dataType="numeric"
+                      name="existencia_maxima"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_disponible_bruta]"
+                      dataType="numeric"
+                      name="cantidad_disponible_bruta"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_disponible_neta]"
+                      dataType="numeric"
+                      name="cantidad_disponible_neta"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[valor_inventario_neto]"
+                      dataType="numeric"
+                      name="valor_inventario_neto"
+                      precision="28"
+                      scale="13" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[punto_medio_inv]"
+                      dataType="numeric"
+                      name="punto_medio_inv"
+                      precision="28"
+                      scale="13" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar FactConsumos\Cargar Datos.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Cargar Datos.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Cargar Datos.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Cargar Datos.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar FactConsumos\Obtener Datos"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server."
+              name="Obtener Datos"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Especifica la instrucción SQL utilizada por el componente para extraer datos."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select 
+	ati.AUDIT_TRANS_INV as consumo_id,
+	ti.CONSECUTIVO as detalle_id,
+	ti.ARTICULO as articulo_id,
+	eb.BODEGA as bodega_id,
+	ISNULL(ti.LOTE, 'No especificado') as lote_id,
+	ti.FECHA_HORA_TRANSAC as fecha_hora_transaccion,
+	CASE
+		WHEN ti.AJUSTE_CONFIG = '~CC~' THEN 'Consumo'
+		ELSE 'NO APLICA'
+	END as tipo_movimiento,
+	ti.CANTIDAD,
+	ti.COSTO_TOT_COMP_LOC as precio_unitario,
+	(ti.CANTIDAD * ti.COSTO_TOT_COMP_LOC) as costo,
+	eb.EXISTENCIA_MAXIMA,
+	eb.EXISTENCIA_MINIMA,
+	eb.CANT_DISPONIBLE,
+	(eb.CANT_DISPONIBLE - ti.CANTIDAD) as cantidad_disponible_neta,
+	((eb.CANT_DISPONIBLE - ti.CANTIDAD) * ti.COSTO_TOT_COMP_LOC) as valor_inventario_neto,
+	((eb.EXISTENCIA_MAXIMA + eb.EXISTENCIA_MINIMA) / 2) as punto_medio_inv
+from disprobe.transaccion_inv ti 
+	join disprobe.ajuste_config ac ON ac.AJUSTE_CONFIG = ti.AJUSTE_CONFIG
+	join disprobe.audit_trans_inv ati ON ati.AUDIT_TRANS_INV = ti.AUDIT_TRANS_INV
+	join disprobe.existencia_bodega eb ON ti.BODEGA = eb.BODEGA
+	join disprobe.articulo a ON ti.ARTICULO = a.ARTICULO
+WHERE ti.AJUSTE_CONFIG = '~CC~';</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se debe permitir que columnas externas que no sean de cadenas se conviertan implícitamente en cadenas en las columnas de salida."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de origen."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especificar el modo de recuperar información de columnas externas"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar FactConsumos\Obtener Datos.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.ExactusERP6.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.ExactusERP6.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET]"
+                  name="Salida de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[consumo_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[consumo_id]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[consumo_id]"
+                      name="consumo_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[detalle_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[detalle_id]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[detalle_id]"
+                      name="detalle_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[articulo_id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[articulo_id]"
+                      length="20"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[articulo_id]"
+                      name="articulo_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[bodega_id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[bodega_id]"
+                      length="4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[bodega_id]"
+                      name="bodega_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[lote_id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[lote_id]"
+                      length="15"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[lote_id]"
+                      name="lote_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[fecha_hora_transaccion]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[fecha_hora_transaccion]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[fecha_hora_transaccion]"
+                      name="fecha_hora_transaccion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[tipo_movimiento]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[tipo_movimiento]"
+                      length="9"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[tipo_movimiento]"
+                      name="tipo_movimiento"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANTIDAD]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[CANTIDAD]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANTIDAD]"
+                      name="CANTIDAD"
+                      precision="28"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[precio_unitario]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[precio_unitario]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[precio_unitario]"
+                      name="precio_unitario"
+                      precision="28"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[costo]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[costo]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[costo]"
+                      name="costo"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MAXIMA]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[EXISTENCIA_MAXIMA]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MAXIMA]"
+                      name="EXISTENCIA_MAXIMA"
+                      precision="28"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MINIMA]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[EXISTENCIA_MINIMA]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[EXISTENCIA_MINIMA]"
+                      name="EXISTENCIA_MINIMA"
+                      precision="28"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANT_DISPONIBLE]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[CANT_DISPONIBLE]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[CANT_DISPONIBLE]"
+                      name="CANT_DISPONIBLE"
+                      precision="28"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[cantidad_disponible_neta]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[cantidad_disponible_neta]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[cantidad_disponible_neta]"
+                      name="cantidad_disponible_neta"
+                      precision="29"
+                      scale="8"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[valor_inventario_neto]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[valor_inventario_neto]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[valor_inventario_neto]"
+                      name="valor_inventario_neto"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[punto_medio_inv]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[punto_medio_inv]"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[punto_medio_inv]"
+                      name="punto_medio_inv"
+                      precision="31"
+                      scale="10"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[consumo_id]"
+                      dataType="i4"
+                      name="consumo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[detalle_id]"
+                      dataType="i4"
+                      name="detalle_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[articulo_id]"
+                      dataType="wstr"
+                      length="20"
+                      name="articulo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[bodega_id]"
+                      dataType="wstr"
+                      length="4"
+                      name="bodega_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[lote_id]"
+                      dataType="wstr"
+                      length="15"
+                      name="lote_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[fecha_hora_transaccion]"
+                      dataType="dbTimeStamp"
+                      name="fecha_hora_transaccion" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[tipo_movimiento]"
+                      dataType="wstr"
+                      length="9"
+                      name="tipo_movimiento" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[CANTIDAD]"
+                      dataType="numeric"
+                      name="CANTIDAD"
+                      precision="28"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[precio_unitario]"
+                      dataType="numeric"
+                      name="precio_unitario"
+                      precision="28"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[costo]"
+                      dataType="numeric"
+                      name="costo"
+                      precision="38"
+                      scale="6" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[EXISTENCIA_MAXIMA]"
+                      dataType="numeric"
+                      name="EXISTENCIA_MAXIMA"
+                      precision="28"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[EXISTENCIA_MINIMA]"
+                      dataType="numeric"
+                      name="EXISTENCIA_MINIMA"
+                      precision="28"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[CANT_DISPONIBLE]"
+                      dataType="numeric"
+                      name="CANT_DISPONIBLE"
+                      precision="28"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[cantidad_disponible_neta]"
+                      dataType="numeric"
+                      name="cantidad_disponible_neta"
+                      precision="29"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[valor_inventario_neto]"
+                      dataType="numeric"
+                      name="valor_inventario_neto"
+                      precision="38"
+                      scale="6" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET].ExternalColumns[punto_medio_inv]"
+                      dataType="numeric"
+                      name="punto_medio_inv"
+                      precision="31"
+                      scale="10" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[consumo_id]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[consumo_id]"
+                      name="consumo_id" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[detalle_id]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[detalle_id]"
+                      name="detalle_id" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[articulo_id]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[articulo_id]"
+                      name="articulo_id" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[bodega_id]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[bodega_id]"
+                      name="bodega_id" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[lote_id]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[lote_id]"
+                      name="lote_id" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[fecha_hora_transaccion]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[fecha_hora_transaccion]"
+                      name="fecha_hora_transaccion" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[tipo_movimiento]"
+                      dataType="wstr"
+                      length="9"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[tipo_movimiento]"
+                      name="tipo_movimiento" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[CANTIDAD]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[CANTIDAD]"
+                      name="CANTIDAD"
+                      precision="28"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[precio_unitario]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[precio_unitario]"
+                      name="precio_unitario"
+                      precision="28"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[costo]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[costo]"
+                      name="costo"
+                      precision="38"
+                      scale="6" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[EXISTENCIA_MAXIMA]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[EXISTENCIA_MAXIMA]"
+                      name="EXISTENCIA_MAXIMA"
+                      precision="28"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[EXISTENCIA_MINIMA]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[EXISTENCIA_MINIMA]"
+                      name="EXISTENCIA_MINIMA"
+                      precision="28"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[CANT_DISPONIBLE]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[CANT_DISPONIBLE]"
+                      name="CANT_DISPONIBLE"
+                      precision="28"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[cantidad_disponible_neta]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[cantidad_disponible_neta]"
+                      name="cantidad_disponible_neta"
+                      precision="29"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[valor_inventario_neto]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[valor_inventario_neto]"
+                      name="valor_inventario_neto"
+                      precision="38"
+                      scale="6" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[punto_medio_inv]"
+                      dataType="numeric"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[punto_medio_inv]"
+                      name="punto_medio_inv"
+                      precision="31"
+                      scale="10" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Cargar FactConsumos.Paths[Salida de origen de ADO NET]"
+              endId="Package\Cargar FactConsumos\Cargar Datos.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Cargar FactConsumos\Obtener Datos.Outputs[Salida de origen de ADO NET]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="190,42"
+          Id="Package\Cargar FactConsumos"
+          TopLeft="553,238" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Cargar FactConsumos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Cargar FactConsumos\Obtener Datos"
+          TopLeft="315,112" />
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Cargar FactConsumos\Cargar Datos"
+          TopLeft="648,189" />
+        <EdgeLayout
+          Id="Package\Cargar FactConsumos.Paths[Salida de origen de ADO NET]"
+          TopLeft="390,154">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="330,35"
+              Start="0,0"
+              End="330,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="4,17.5" />
+                  <mssgle:LineSegment
+                    End="326,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="326,17.5"
+                    Point2="330,17.5"
+                    Point3="330,21.5" />
+                  <mssgle:LineSegment
+                    End="330,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar FactConsumos\Cargar Datos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar FactConsumos\Obtener Datos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
