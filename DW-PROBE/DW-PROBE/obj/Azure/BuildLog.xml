@@ -2,13 +2,23 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>DW-PROBE</Name>
-    <LastWriteTime>2025-09-04T03:04:17.2356625Z</LastWriteTime>
+    <LastWriteTime>2025-09-17T01:16:34.1864955Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>Package.dtsx</Name>
-      <LastWriteTime>2025-09-04T03:04:16.7523174Z</LastWriteTime>
+      <Name>dimLote.dtsx</Name>
+      <LastWriteTime>2025-09-17T01:16:34.1394392Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>dimProveedor.dtsx</Name>
+      <LastWriteTime>2025-09-17T01:20:34.8417925Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>factIngresos.dtsx</Name>
+      <LastWriteTime>2025-09-17T01:02:02.2019087Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
