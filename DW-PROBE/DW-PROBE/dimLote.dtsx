@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/3/2025 9:04:16 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="FRAN-PC"
+  DTS:CreatorName="FRAN-PC\frane"
+  DTS:DTSID="{7A434D7A-8CBB-497A-9053-EA8FEA26E8D1}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="2058"
+  DTS:ObjectName="dimLote"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{A3F3BC1F-0A26-4C7D-A9B3-F883893229C6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ExactusERP6.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{B99C2F72-0259-4278-859D-DF95542C2BF8}"
+      DTS:ObjectName="localhost.ExactusERP6.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ExactusERP6;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-dimLote-{B99C2F72-0259-4278-859D-DF95542C2BF8}localhost.ExactusERP6.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAIpUo0SsJGyBGSS9xI+CfhAbgcVqfMJr3wuXKMG+k0dwAAAAAOgAAAAAIAACAAAADB7bke8Fp01x6mRQ3tvtGC33Fzx2RsO9IxJWoqov5k4iAAAADfOC8zABBR+lr7PyYXFx46gi5whzLELkzrrxBHy/y4hkAAAABHCuALW/yPF4oy14hRc8SZhQXHOiTKLdIqwiFxwgpqv6wUSwK1EY6DIzQDnkOCoh2TtHECFha9H//F4dt/jtx3</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{F3A7A4C1-A39B-4576-9B76-9DEB24A39ECD}"
+      DTS:ObjectName="localhost.ProbeDataWarehouse.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-dimLote-{F3A7A4C1-A39B-4576-9B76-9DEB24A39ECD}localhost.ProbeDataWarehouse.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABgruOfJURLOAJ/NSKlPcTGa8vNXrLXvUSjGCZsjwUCLQAAAAAOgAAAAAIAACAAAADKIWQTkYWv4U2v+4WaPhbM0i/00/Q+xqOZTXA7cb/A+yAAAABm1i/suJCe56wnDVtjA7JF+l2MQxPBzZpEQ+oqvn1s00AAAAD7+z2ip/T957UZHOmRUUJ54dHcpbwvhcxssZrwq3nVtMvI9s0/F/tMaUpBjciebv8t0W3PZWRRguMlm3tfJKd+</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Limpiar dimLote"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{C7C89E4D-BAA2-473D-ACFC-1CD656059FD0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Limpiar dimLote"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Limpiar dimLote"
+          TopLeft="382,62" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

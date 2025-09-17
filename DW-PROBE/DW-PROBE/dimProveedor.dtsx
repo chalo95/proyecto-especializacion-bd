@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/16/2025 6:46:08 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-3BSQ9MS"
+  DTS:CreatorName="DESKTOP-3BSQ9MS\GERMAN"
+  DTS:DTSID="{AD6520A3-1265-4147-83E9-A52F596EADC8}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="17418"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{94E29D3A-9166-4E53-8BE3-B112E1DD6946}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ExactusERP6.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{D445A5C1-E7B6-4D71-B9A9-48A43A761FB6}"
+      DTS:ObjectName="localhost.ExactusERP6.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ExactusERP6;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package1-{D445A5C1-E7B6-4D71-B9A9-48A43A761FB6}localhost.ExactusERP6.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACB2SQCISuTqqdUiYmhV0Fd0TJO7wkyyn0VQ/5l3HGSCgAAAAAOgAAAAAIAACAAAABTLfy2GMIPnQyfjJ0pKM/DWEL6e2LVovLZa1pllnDbWCAAAABNEEiHslEEa4Vw9A1tmZJsxlvj88gawKbGV/gFhz9T/EAAAABqwLfoRaNNpB160SskjM4B1X3XsS+JTg6O44R/JP//8fGwkw+f9Mr+HSmtL5UkqRL8uzMli9dPzMZqX9mFLOcZ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{B6A96F60-D6D3-4793-AA5A-74DAA7FCD404}"
+      DTS:ObjectName="localhost.ProbeDataWarehouse.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package1-{B6A96F60-D6D3-4793-AA5A-74DAA7FCD404}localhost.ProbeDataWarehouse.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACF7s7ImkLUNUoxWwtE3LdithblYpsYolDa5FD6RRlZ+gAAAAAOgAAAAAIAACAAAADPXCqIyXC0OfhJoPv7OQ+Cr6oqjRrPH7hQw8PLUgPZFiAAAAD80YY/9YqHWHJSJiutpvzDLU9Eq1lbraV4+2jd14JEkkAAAACftaxoJZ6uLJuWt8rwmZOIayaqzB6Q/CDGMVcZRIsfQplC2C4M8rwdPXHoJdDrNrDX6cNM96Yw+NPdXO/uiKhF</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
