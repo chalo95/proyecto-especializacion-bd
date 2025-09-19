@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS warehouse.dimProveedor;
 
 create table warehouse.dimLote(
     lote_key int primary key identity,
-    lote_id varchar(15) not null,
+    lote_id nvarchar(15) not null,
     lote_del_proveedor varchar(15) not null,
     fecha_entrada datetime not null,
     fecha_vencimiento datetime not null,
@@ -89,14 +89,12 @@ create table warehouse.dimClientes(
 
 create table warehouse.dimFecha (
 	fecha_key int primary key identity,
-	fecha_completa date,
+	fecha_completa datetime,
 	anio varchar(4),
 	mes int,
 	dia int,
-	nombre_dia varchar(4),
+	nombre_dia varchar(50),
 	semana_anio int,
-	es_fin_semana varchar(4),
-	es_asueto varchar(4)
 );
 
 create table warehouse.dimProveedor(
@@ -111,9 +109,9 @@ create table warehouse.dimProveedor(
 	cargo_contacto varchar(30) not null,
 	pais varchar(40) not null,
 	condicion_pago varchar(40) not null,
-	estado_proveedor varchar(2) not null,
+	estado_proveedor varchar(20) not null,
 	moneda varchar(4) not null,
-	telefono varchar(20) default('N/A'),
+	telefono varchar(50) default('N/A'),
 	local varchar(10) not null,
 	email varchar(256) default('N/A'),
 	tipo_proveedor varchar(40) not null,

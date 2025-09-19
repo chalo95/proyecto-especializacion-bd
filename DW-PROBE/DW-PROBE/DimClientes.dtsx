@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="DimClientes"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{4C048677-E49A-48D2-A20A-8BEC705D4495}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{4B0F00C4-B25A-4C27-B43A-AA469ED09998}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAev1ssV4T6Xu5kbZW8sY/EqyoPItumZf1zryeftZOVOQAAAAAOgAAAAAIAACAAAADsdpKQL+rhgak6hwWm2jAz/fJKXZKWw9dgpodpr5ZteyAAAABno1LyO8uEf7NMvdiwTjKRTXRF8KGvWU8r+3paF6zjlEAAAAA9gEgm8F4hu1Xe2SBd+me0f2v3FZuiURSl4w1lOxPUEB7TVEq2xYkQqtmtkYymz/Q2fyp591Av5JFDrUExgVLM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/lfj2bVDY4zeAg78RTLj5pB3SUzWNdPWZtBCNC5SCjQAAAAAOgAAAAAIAACAAAADC86xIOfwdYbfWcXaz/qhiWQi0CFEh67W1fch+Yntr+CAAAACd3vtuKuLZpRrFwvgLWnboi8hORJ57I3opn2h5Ji2880AAAACRRYGYElyPeE8OGe99ansa1kjImXP6Roc3TTbWDz+wgaMPzGroxDkrCMtPYmjnC2VjwiPO8tCn4HdKX+LvwPFj</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACMN6KPiDtE8klxWUtSa1XSm0IPUTv+rfLYjO8iyEfNyAAAAAAOgAAAAAIAACAAAACSN7tisePu0O1XxekqrpXqN6d0cc52h4YTvKLEFqioiCAAAABLLZXJGL3YsvCfD24e+vu3tJAPOsfG7NgnJJDog6RdDEAAAAD2xaYOVco4aK8XEKtXScAVbz2Z53RFZxh2+hgGWMaCcr7vIHNzabywyJfMU2P+9aXKRRL/jZ7b1qZIJrHmxZEv</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADCENnVSDG85LUHrUK9GstQyJpBJgbsa0Md7KIAU3asUgAAAAAOgAAAAAIAACAAAADw/QwyOJ61gEJTD9xOwXfFHraTcqFg0yQB81Mc2TN2uyAAAADEWJYoCPSG0AgFqSHIs7/+Gtj4hQE5kDcePAizQMaj0EAAAAA922RIp8E8MYgEd44GZoARr6uRkJXrVb+Yhj3YwfbW3a40yDHaCSJUNjqxiUYNIeqSQUFrYmil0u9mJ30S05pZ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -59,7 +59,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA/9FAIz1HWHYQHZ8KfrlBTibvjJW7d3aS/VpzauCrrggAAAAAOgAAAAAIAACAAAAB42cwbB6h1oEFzt8zVMT+8m94DrJU1Pm5NxtK6VHxBZCAAAAAOMOPqR8XON3BX3EQvCTXJJDF4N8DJsDIVgWQd1mpE9kAAAAB0yRj49LNkDaQ8TQuKqduz0SN/EBRb+GEBbA+BsCyO5Y+M1hZWvn5vfgQsp391lf7JZcJ3TAtJhldNeS1WSebu</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADremhE/dKHmKW1C1n460zPTf3/sooMZkFtuiX69NgZ2QAAAAAOgAAAAAIAACAAAADu5+wWcFt70awY4rcAezCqd+3oll3pOsq8iPMuSTRP0yAAAACwgVpBrUVrug0IfF2aaCsK5Pgu3CCF5b3+jpOzUD4tkUAAAABq494eA12SBBu7dIYTz44Vj2bOkluJv/UbUcnrxm6cdmdD7kWmGjOPo48vR3K3d7x9aXg/Uhocz8Sw6gbSRJ45</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -198,19 +198,19 @@
                       externalMetadataColumnId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[telefono_2]"
                       lineageId="Package\Cargar dimClientes\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[telefono2]" />
                     <inputColumn
-                      refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[cargo]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="cargo"
-                      externalMetadataColumnId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
-                      lineageId="Package\Cargar dimClientes\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[cargo]" />
-                    <inputColumn
                       refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[categoria_cliente]"
                       cachedDataType="wstr"
                       cachedLength="40"
                       cachedName="categoria_cliente"
                       externalMetadataColumnId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_cliente]"
                       lineageId="Package\Cargar dimClientes\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[categoria_cliente]" />
+                    <inputColumn
+                      refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].Columns[cargo]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="cargo"
+                      externalMetadataColumnId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
+                      lineageId="Package\Cargar dimClientes\Obtener Datos.Outputs[Salida de origen de ADO NET].Columns[cargo]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -278,19 +278,6 @@
                       dataType="wstr"
                       length="40"
                       name="tipo_cliente" />
-                    <externalMetadataColumn
-                      refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_inicio_vigencia]"
-                      dataType="dbTimeStamp"
-                      name="fecha_inicio_vigencia" />
-                    <externalMetadataColumn
-                      refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_fin_vigencia]"
-                      dataType="dbTimeStamp"
-                      name="fecha_fin_vigencia" />
-                    <externalMetadataColumn
-                      refId="Package\Cargar dimClientes\Cargar Datos.Inputs[Entrada de destino de ADO NET].ExternalColumns[registro_vigente]"
-                      dataType="wstr"
-                      length="2"
-                      name="registro_vigente" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -752,33 +739,33 @@ join disprobe.categoria_cliente cc on c.CATEGORIA_CLIENTE = cc.CATEGORIA_CLIENTE
         <NodeLayout
           Size="142,42"
           Id="Package\Limpiar tabla"
-          TopLeft="231,64" />
+          TopLeft="230,63" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="302,106">
+          TopLeft="301,105">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="258,29.5"
+              EndConnector="259,30.5"
               Start="0,0"
-              End="258,22">
+              End="259,23">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.75" />
+                    End="0,11.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,10.75"
-                    Point2="0,14.75"
-                    Point3="4,14.75" />
+                    Point1="0,11.25"
+                    Point2="0,15.25"
+                    Point3="4,15.25" />
                   <mssgle:LineSegment
-                    End="254,14.75" />
+                    End="255,15.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="254,14.75"
-                    Point2="258,14.75"
-                    Point3="258,18.75" />
+                    Point1="255,15.25"
+                    Point2="259,15.25"
+                    Point3="259,19.25" />
                   <mssgle:LineSegment
-                    End="258,22" />
+                    End="259,23" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -798,37 +785,37 @@ join disprobe.categoria_cliente cc on c.CATEGORIA_CLIENTE = cc.CATEGORIA_CLIENTE
         <NodeLayout
           Size="150,42"
           Id="Package\Cargar dimClientes\Obtener Datos"
-          TopLeft="696,182" />
+          TopLeft="696,181" />
         <NodeLayout
           Size="144,42"
           Id="Package\Cargar dimClientes\Cargar Datos"
-          TopLeft="928,283" />
+          TopLeft="907,293" />
         <EdgeLayout
           Id="Package\Cargar dimClientes.Paths[Salida de origen de ADO NET]"
-          TopLeft="771,224">
+          TopLeft="771,223">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="229,59"
+              EndConnector="208,70"
               Start="0,0"
-              End="229,51.5">
+              End="208,62.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.5" />
+                    End="0,31" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.5"
-                    Point2="0,29.5"
-                    Point3="4,29.5" />
+                    Point1="0,31"
+                    Point2="0,35"
+                    Point3="4,35" />
                   <mssgle:LineSegment
-                    End="225,29.5" />
+                    End="204,35" />
                   <mssgle:CubicBezierSegment
-                    Point1="225,29.5"
-                    Point2="229,29.5"
-                    Point3="229,33.5" />
+                    Point1="204,35"
+                    Point2="208,35"
+                    Point3="208,39" />
                   <mssgle:LineSegment
-                    End="229,51.5" />
+                    End="208,62.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

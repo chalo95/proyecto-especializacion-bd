@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{52EF97F0-9A59-471F-9662-3580BC0E5964}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{6AAD813D-B82E-497B-9D0A-1CC4D5580AF7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACAK4FUx5Drnw0ioKvd8tMW9nwtNUu+UgmX319poRhJfQAAAAAOgAAAAAIAACAAAACa4DFegeUIJFJkBqxcen9tS49OnyfQTJnqHB6sn6FSLSAAAABNoJEFx43E+HymJf+uPtr+THId9UzEQRsB76RU5a7ykUAAAAC/Wwpfh6Wznf7PbdAL32MrrrtDFxXvlgS5lVAniCRWfQK3Fi4i45jJWDYGQkEs/TRVZf4s+olVdIIk5rzHhB/i</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADf9KOc1kB1ISa5YqBcvccrePqzQrg4XnkXtPeJ1k3XdgAAAAAOgAAAAAIAACAAAAB654nmB+XyVcKn+A6gFATay5/OJYq30tIvkq7UqvVK5yAAAAD1jNXnLrl+3KBzTYuvCxGj7QyjiHcFSy0PQ4QJ7iRvdUAAAAAvcJ2p7zV5UWvtWouDVo9u6gyh/fLkM9S4OOaDzuRwkvDZNwjB2UXToyfD/4/p8IgBaquLVXPUf7sphubUd9Cc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALJgY0QTxeBE4i5egceb1/rQB8r86qw9VmKV0MFR92kAAAAAAOgAAAAAIAACAAAAB+ek0yFjdpQ9UMIoOHJMH2W+7BRKVS/R2FqglWAnG3aSAAAABbrJxoeTaL3mHWcVTryBl+4j+oRLYPnaQJAS7GUulACkAAAAC3suWW7iqR2nvlWj3xUs9JIePRK3yrOZGCyaKv/DaY2CYau7YZggHMXHp5tWxarfXcWp1PRCkxGqdXUEHpP+cx</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABHPsaIRheoVz3AfaOQfzATm3iQa1en8gDSFDWirZlM3gAAAAAOgAAAAAIAACAAAABHm9YzLjPT8rQKy/mXedHuJdEwPUDVZ1bwXyYziYflZSAAAACVJgt00w7F6PNRjfhoqZZbU37KHhCfKesvaawTrm6fgUAAAAA/do4tcJ0YBH4ysL5bRyM134TIAqnZN6TeKTzRY/KI1TLiQ6rH61ng56f0cssuGKi1OReiwrschSpMd3ZJQ3oh</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,11 +55,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package1-{0C2392E8-DAFA-4E5E-84B6-5B8C4891FAE7}localhost.ProbeDataWarehouse.sa1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{0C2392E8-DAFA-4E5E-84B6-5B8C4891FAE7}localhost.ProbeDataWarehouse.sa1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACj6MUDVqTK10w36WObt6ZyRX30Fxsqhv1w/ovEckiSAAAAAAAOgAAAAAIAACAAAAAYTbACOpwA0keZGkGB90cCAgzOWuPv5TomvEmaE3MNgSAAAACZBTy/7hHygfkQZMcA21fD/e7TVavt2JrDf9nAr1TXakAAAADqmRvxNLa5aPnV23qlBdZWKkhg2cp0I4jkdHVsXJjUWcXktYTsr/BbVgoJPj2o/P1kIsDeHlWoVzu9N5tm+7WS</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC2ntmayPpjFQswiytSO/j50lr1vy8IlufUg6juRY4JrgAAAAAOgAAAAAIAACAAAAC1zZ663ADqqs+vAecPwAMDyFkkxKYjXdIhmC++s/Ye8yAAAADE2VrScRXT2IPqCQlCc4im2owa2tAI8vhc9h/28A0CAEAAAABceuPMP2xjuwFBMoSECJtz47cVPXwrtOJzvTqkboHd6TnJIXHeYHzdVSZRjuJXPKAv+MKZVV3Giu5Gr6QIyKI4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -640,11 +640,11 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
               </outputs>
             </component>
             <component
-              refId="Package\Llenar dimProveedor\Llenar dimProveedor"
+              refId="Package\Llenar dimProveedor\Llenar Proveedor"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
               description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Llenar dimProveedor"
+              name="Llenar Proveedor"
               usesDispositions="true"
               version="2">
               <properties>
@@ -675,7 +675,7 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
               </properties>
               <connections>
                 <connection
-                  refId="Package\Llenar dimProveedor\Llenar dimProveedor.Connections[IDbConnection]"
+                  refId="Package\Llenar dimProveedor\Llenar Proveedor.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
                   description="Administrador de conexiones administrado"
@@ -683,237 +683,237 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
               </connections>
               <inputs>
                 <input
-                  refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET]"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[proveedor_id]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[proveedor_id]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="proveedor_id"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_id]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_id]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[proveedor_id]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[NIT]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[NIT]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="NIT"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nit]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nit]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[NIT]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[nombre_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[nombre_proveedor]"
                       cachedDataType="wstr"
                       cachedLength="80"
                       cachedName="nombre_proveedor"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombre_proveedor]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombre_proveedor]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[nombre_proveedor]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[alias]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[alias]"
                       cachedDataType="wstr"
                       cachedLength="80"
                       cachedName="alias"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[alias]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[alias]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[alias]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_ingreso]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_ingreso]"
                       cachedDataType="dbTimeStamp"
                       cachedName="fecha_ingreso"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_ingreso]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_ingreso]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[fecha_ingreso]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[direccion]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[direccion]"
                       cachedDataType="wstr"
                       cachedLength="250"
                       cachedName="direccion"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[direccion]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[direccion]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[direccion]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[contacto]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[contacto]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="contacto"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[contacto]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[contacto]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[contacto]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[cargo_contacto]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[cargo_contacto]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="cargo_contacto"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[cargo_contacto]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[pais]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[pais]"
                       cachedDataType="wstr"
                       cachedLength="40"
                       cachedName="pais"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[pais]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[pais]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[pais]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[condicion_pago]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[condicion_pago]"
                       cachedDataType="wstr"
                       cachedLength="40"
                       cachedName="condicion_pago"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[condicion_pago]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[condicion_pago]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[condicion_pago]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[estado_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[estado_proveedor]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="estado_proveedor"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado_proveedor]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado_proveedor]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[estado_proveedor]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[moneda]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[moneda]"
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="moneda"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[moneda]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[moneda]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[moneda]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[telefono]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[telefono]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="telefono"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[telefono]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[telefono]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[telefono]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[local]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[local]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="local"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[local]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[local]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[local]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[email]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[email]"
                       cachedDataType="wstr"
                       cachedLength="249"
                       cachedName="email"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[email]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[email]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[email]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[tipo_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[tipo_proveedor]"
                       cachedDataType="wstr"
                       cachedLength="40"
                       cachedName="tipo_proveedor"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_proveedor]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_proveedor]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[tipo_proveedor]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_inicio_vigencia]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_inicio_vigencia]"
                       cachedDataType="dbTimeStamp"
                       cachedName="fecha_inicio_vigencia"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_inicio_vigencia]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_inicio_vigencia]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[fecha_inicio_vigencia]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_fin_vigencia]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[fecha_fin_vigencia]"
                       cachedDataType="i4"
                       cachedName="fecha_fin_vigencia"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_fin_vigencia]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_fin_vigencia]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[fecha_fin_vigencia]" />
                     <inputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].Columns[registro_vigente]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].Columns[registro_vigente]"
                       cachedDataType="wstr"
                       cachedLength="2"
                       cachedName="registro_vigente"
-                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[registro_vigente]"
+                      externalMetadataColumnId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[registro_vigente]"
                       lineageId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET].Columns[registro_vigente]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_key]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_key]"
                       dataType="i4"
                       name="proveedor_key" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_id]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[proveedor_id]"
                       dataType="wstr"
                       length="20"
                       name="proveedor_id" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nit]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nit]"
                       dataType="wstr"
                       length="20"
                       name="nit" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombre_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombre_proveedor]"
                       dataType="wstr"
                       length="150"
                       name="nombre_proveedor" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[alias]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[alias]"
                       dataType="wstr"
                       length="150"
                       name="alias" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_ingreso]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_ingreso]"
                       dataType="dbTimeStamp"
                       name="fecha_ingreso" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[direccion]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[direccion]"
                       dataType="wstr"
                       length="250"
                       name="direccion" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[contacto]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[contacto]"
                       dataType="wstr"
                       length="30"
                       name="contacto" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[cargo_contacto]"
                       dataType="wstr"
                       length="30"
                       name="cargo_contacto" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[pais]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[pais]"
                       dataType="wstr"
                       length="40"
                       name="pais" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[condicion_pago]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[condicion_pago]"
                       dataType="wstr"
                       length="40"
                       name="condicion_pago" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado_proveedor]"
                       dataType="wstr"
-                      length="10"
+                      length="20"
                       name="estado_proveedor" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[moneda]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[moneda]"
                       dataType="wstr"
                       length="4"
                       name="moneda" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[telefono]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[telefono]"
                       dataType="wstr"
                       length="50"
                       name="telefono" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[local]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[local]"
                       dataType="wstr"
                       length="10"
                       name="local" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[email]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[email]"
                       dataType="wstr"
                       length="256"
                       name="email" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_proveedor]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[tipo_proveedor]"
                       dataType="wstr"
                       length="40"
                       name="tipo_proveedor" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_inicio_vigencia]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_inicio_vigencia]"
                       dataType="dbTimeStamp"
                       name="fecha_inicio_vigencia" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_fin_vigencia]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_fin_vigencia]"
                       dataType="dbTimeStamp"
                       name="fecha_fin_vigencia" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[registro_vigente]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET].ExternalColumns[registro_vigente]"
                       dataType="wstr"
                       length="2"
                       name="registro_vigente" />
@@ -922,22 +922,22 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Llenar dimProveedor\Llenar dimProveedor.Outputs[Salida de error de destino de ADO NET]"
+                  refId="Package\Llenar dimProveedor\Llenar Proveedor.Outputs[Salida de error de destino de ADO NET]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET]">
+                  synchronousInputId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Llenar dimProveedor\Llenar dimProveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Llenar dimProveedor\Llenar Proveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Llenar dimProveedor\Llenar dimProveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Llenar dimProveedor\Llenar Proveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Llenar dimProveedor\Llenar dimProveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Llenar dimProveedor\Llenar Proveedor.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -949,7 +949,7 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
           <paths>
             <path
               refId="Package\Llenar dimProveedor.Paths[Salida de origen de ADO NET]"
-              endId="Package\Llenar dimProveedor\Llenar dimProveedor.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Llenar dimProveedor\Llenar Proveedor.Inputs[Entrada de destino de ADO NET]"
               name="Salida de origen de ADO NET"
               startId="Package\Llenar dimProveedor\Leer Proveedor.Outputs[Salida de origen de ADO NET]" />
           </paths>
@@ -1034,35 +1034,35 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
           Id="Package\Llenar dimProveedor\Leer Proveedor"
           TopLeft="559,131" />
         <NodeLayout
-          Size="181,42"
-          Id="Package\Llenar dimProveedor\Llenar dimProveedor"
-          TopLeft="773,241" />
+          Size="163,42"
+          Id="Package\Llenar dimProveedor\Llenar Proveedor"
+          TopLeft="753,252" />
         <EdgeLayout
           Id="Package\Llenar dimProveedor.Paths[Salida de origen de ADO NET]"
           TopLeft="636.5,173">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="227,68"
+              EndConnector="198,79"
               Start="0,0"
-              End="227,60.5">
+              End="198,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30" />
+                    End="0,35.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,30"
-                    Point2="0,34"
-                    Point3="4,34" />
+                    Point1="0,35.5"
+                    Point2="0,39.5"
+                    Point3="4,39.5" />
                   <mssgle:LineSegment
-                    End="223,34" />
+                    End="194,39.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="223,34"
-                    Point2="227,34"
-                    Point3="227,38" />
+                    Point1="194,39.5"
+                    Point2="198,39.5"
+                    Point3="198,43.5" />
                   <mssgle:LineSegment
-                    End="227,60.5" />
+                    End="198,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1083,7 +1083,7 @@ LEFT JOIN ExactusERP6.disprobe.CATEGORIA_PROVEED cat
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Llenar dimProveedor\Llenar dimProveedor">
+    design-time-name="Package\Llenar dimProveedor\Llenar Proveedor">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

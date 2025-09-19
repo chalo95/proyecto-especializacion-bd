@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="dimLote"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{F7B33C98-9624-4B5C-B7EC-F514C3144A03}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{449028B4-C10D-41A9-BFFB-D8D279C2F364}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC2uejpVv5wk3JewUlN/qUcvwpcXoERlRh4loWXtsuWrQAAAAAOgAAAAAIAACAAAAB/RpkESrim9ReHYsi76uAfp4M6m60f9Sf858KrpCN+HCAAAADrOM+dp+gqaUeDJ1TJHT5dm7m68iGzV0ylOnJ22/sHNkAAAACHTcBfOoNewxHQzqavFEnO37fiCKTC371UYaH+aNLl213Nm4T/+t5rP8zOQWnE1g0fbqXDjQJFTc8AAvOuUkF6</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACbYGXDyuvJEyeQ4dW/mf+Xldud4hJIDAylVRZxb6xKgAAAAAAOgAAAAAIAACAAAABvzmmDhGnDQd7JJwG8YM4buuQU5EDSSwotbKCD/am9HSAAAABGkCwW7Z3J0l+ryJ/fb0zryp9bGkjbdTNPsGh3zsu1pkAAAAAdr1Iou40Do7behAif4KnKUaT62elC+05PWu7sMAhHXt2PlXnFpXpHQdnuu8oTgQPbiXvfq2EXiMXMboY1uKMu</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADHK1m6CyiROIBJww0qgZNM9qHLovUD30E3CXjGeoB3NAAAAAAOgAAAAAIAACAAAACUZI127DyrbOV+8skkZcPH0+ZoQGzmQEeaOA/2lPCyXCAAAACh4tHO73CvMlAt1tU7PietZNMlAHAEFYjVSX7EANDTw0AAAABQe5FHJeGSMeltt8Uom0LMgGIQ0HRePtCa2iYWhaL4oU0LfITs0XKFC7LhQsnyy7IJv7GsyYTerUt42sC06dIG</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABPARGEpcaRE22t/BPnbRtEJ3DHOb4d6t3lMdcxVVxkigAAAAAOgAAAAAIAACAAAADnGRg7eP1ZNEJ92WJPzX1dkwHID4zAsnmqeOfy8ivGXCAAAABb0lKnUhL5v/FHmGkRZ5H2QcBFkQ8ShRKeAekiJmWqJEAAAACJbCdCzw87zUMIHA5W04oer5ur0nIGK8RnzV7riP8ND94MUlUd62brsiaZViMEi/TECNpgrh15XNB9kF/DITDz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,11 +55,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-dimLote-{2C472551-89A5-4D07-BDD9-DAFFAF9CDCDA}localhost.ProbeDataWarehouse.sa1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=ProbeDataWarehouse;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-dimLote-{2C472551-89A5-4D07-BDD9-DAFFAF9CDCDA}localhost.ProbeDataWarehouse.sa1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJqr7lC304EK0G5u8xUmVdAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABc+Bmftr1yBdEi0j8JjQCaSYXdnokCUELRigG7EGIkoAAAAAAOgAAAAAIAACAAAABqQOee8BQ96bKaAQnfBWJUgAca0OLA3ypu4jKwn+WhXiAAAAAO6grOfUnYB4uiV9fydAyWLC+R5DjLrN7iP8Oe3zccI0AAAACCRx93zbP2m7HuN9ed/qBzKFnlXJaWQgd00gzyA0IcK4Pt8UL154fxGgwBIdyyqB7iCngupNJw5L0V8qC0S8aO</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD9ygAoosjbtwWpU6xz9ZMkRhahPUYY9g7H3/ug7CgY4wAAAAAOgAAAAAIAACAAAABKq1fQOrFVsaJylMlYSA7Mr1w/oiqSK7uNZPy+uo4lkSAAAAAzM/VQpE1gch3ZC0+JlWCO97fWA2up5Fel0/6w+SPzaUAAAACsu0/IWTEs41+7ZHSpmEs6FF5oQD4Dysrl5JOZVnUoBaOT+YRxZwGk/BHGnFrSnDT3slpHeu9c1fKySQQrIxVO</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -367,11 +367,11 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
               </outputs>
             </component>
             <component
-              refId="Package\Llenar dimLote\Llenar dimLote"
+              refId="Package\Llenar dimLote\Llenar DimLote"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
               description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Llenar dimLote"
+              name="Llenar DimLote"
               usesDispositions="true"
               version="2">
               <properties>
@@ -402,7 +402,7 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Llenar dimLote\Llenar dimLote.Connections[IDbConnection]"
+                  refId="Package\Llenar dimLote\Llenar DimLote.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.ProbeDataWarehouse.sa]"
                   description="Administrador de conexiones administrado"
@@ -410,85 +410,85 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET]"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[lote_id]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[lote_id]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="lote_id"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_id]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_id]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[lote_id]" />
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[lote_del_proveedor]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[lote_del_proveedor]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="lote_del_proveedor"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_del_proveedor]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_del_proveedor]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[lote_del_proveedor]" />
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[fecha_entrada]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[fecha_entrada]"
                       cachedDataType="dbTimeStamp"
                       cachedName="fecha_entrada"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_entrada]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_entrada]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[fecha_entrada]" />
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[fecha_vencimiento]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[fecha_vencimiento]"
                       cachedDataType="dbTimeStamp"
                       cachedName="fecha_vencimiento"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_vencimiento]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_vencimiento]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[fecha_vencimiento]" />
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[cantidad_ingresada]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[cantidad_ingresada]"
                       cachedDataType="numeric"
                       cachedName="cantidad_ingresada"
                       cachedPrecision="28"
                       cachedScale="8"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_ingresada]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_ingresada]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[cantidad_ingresada]" />
                     <inputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].Columns[estado]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].Columns[estado]"
                       cachedDataType="wstr"
                       cachedLength="1"
                       cachedName="estado"
-                      externalMetadataColumnId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado]"
+                      externalMetadataColumnId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado]"
                       lineageId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET].Columns[estado]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_key]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_key]"
                       dataType="i4"
                       name="lote_key" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_id]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_id]"
                       dataType="wstr"
                       length="15"
                       name="lote_id" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_del_proveedor]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[lote_del_proveedor]"
                       dataType="wstr"
                       length="15"
                       name="lote_del_proveedor" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_entrada]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_entrada]"
                       dataType="dbTimeStamp"
                       name="fecha_entrada" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_vencimiento]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha_vencimiento]"
                       dataType="dbTimeStamp"
                       name="fecha_vencimiento" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_ingresada]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[cantidad_ingresada]"
                       dataType="numeric"
                       name="cantidad_ingresada"
                       precision="28"
                       scale="13" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET].ExternalColumns[estado]"
                       dataType="wstr"
                       length="10"
                       name="estado" />
@@ -497,22 +497,22 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Llenar dimLote\Llenar dimLote.Outputs[Salida de error de destino de ADO NET]"
+                  refId="Package\Llenar dimLote\Llenar DimLote.Outputs[Salida de error de destino de ADO NET]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET]">
+                  synchronousInputId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Llenar dimLote\Llenar dimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Llenar dimLote\Llenar DimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Llenar dimLote\Llenar dimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Llenar dimLote\Llenar DimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Llenar dimLote\Llenar dimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Llenar dimLote\Llenar DimLote.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -524,7 +524,7 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
           <paths>
             <path
               refId="Package\Llenar dimLote.Paths[Salida de origen de ADO NET]"
-              endId="Package\Llenar dimLote\Llenar dimLote.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Llenar dimLote\Llenar DimLote.Inputs[Entrada de destino de ADO NET]"
               name="Salida de origen de ADO NET"
               startId="Package\Llenar dimLote\Leer Lote.Outputs[Salida de origen de ADO NET]" />
           </paths>
@@ -561,16 +561,16 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
         <NodeLayout
           Size="152,42"
           Id="Package\Llenar dimLote"
-          TopLeft="233,188" />
+          TopLeft="232,188" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="244.5,111">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="64.5,77"
+              EndConnector="63.5,77"
               Start="0,0"
-              End="64.5,69.5">
+              End="63.5,69.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -581,13 +581,13 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
                     Point2="0,38.5"
                     Point3="4,38.5" />
                   <mssgle:LineSegment
-                    End="60.5,38.5" />
+                    End="59.5,38.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="60.5,38.5"
-                    Point2="64.5,38.5"
-                    Point3="64.5,42.5" />
+                    Point1="59.5,38.5"
+                    Point2="63.5,38.5"
+                    Point3="63.5,42.5" />
                   <mssgle:LineSegment
-                    End="64.5,69.5" />
+                    End="63.5,69.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -607,37 +607,37 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
         <NodeLayout
           Size="125,42"
           Id="Package\Llenar dimLote\Leer Lote"
-          TopLeft="314,153" />
+          TopLeft="314,152" />
         <NodeLayout
-          Size="152,42"
-          Id="Package\Llenar dimLote\Llenar dimLote"
-          TopLeft="493,251" />
+          Size="154,42"
+          Id="Package\Llenar dimLote\Llenar DimLote"
+          TopLeft="546,237" />
         <EdgeLayout
           Id="Package\Llenar dimLote.Paths[Salida de origen de ADO NET]"
-          TopLeft="376.5,195">
+          TopLeft="376.5,194">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="192.5,56"
+              EndConnector="246.5,43"
               Start="0,0"
-              End="192.5,48.5">
+              End="246.5,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24" />
+                    End="0,17.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24"
-                    Point2="0,28"
-                    Point3="4,28" />
+                    Point1="0,17.5"
+                    Point2="0,21.5"
+                    Point3="4,21.5" />
                   <mssgle:LineSegment
-                    End="188.5,28" />
+                    End="242.5,21.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="188.5,28"
-                    Point2="192.5,28"
-                    Point3="192.5,32" />
+                    Point1="242.5,21.5"
+                    Point2="246.5,21.5"
+                    Point3="246.5,25.5" />
                   <mssgle:LineSegment
-                    End="192.5,48.5" />
+                    End="246.5,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -658,7 +658,7 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Llenar dimLote\Llenar dimLote">
+    design-time-name="Package\Llenar dimLote\Llenar DimLote">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
