@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="dimLote"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{449028B4-C10D-41A9-BFFB-D8D279C2F364}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{DA67CC73-8D35-413C-93AE-421F5B2C9693}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACbYGXDyuvJEyeQ4dW/mf+Xldud4hJIDAylVRZxb6xKgAAAAAAOgAAAAAIAACAAAABvzmmDhGnDQd7JJwG8YM4buuQU5EDSSwotbKCD/am9HSAAAABGkCwW7Z3J0l+ryJ/fb0zryp9bGkjbdTNPsGh3zsu1pkAAAAAdr1Iou40Do7behAif4KnKUaT62elC+05PWu7sMAhHXt2PlXnFpXpHQdnuu8oTgQPbiXvfq2EXiMXMboY1uKMu</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAD+EMJa1B14SO7t5T0R3sOTmubRpV5uPbHZUeOL18IpgAAAAAOgAAAAAIAACAAAADN/cfsWLcjzi6l1HOilXIH5O7fjSc5rhI/8NWPWANaZiAAAACvZGche+ui1kIBRxCi9drlqc55YFFNgsM3jjtuXF1wQ0AAAAAoDtQ5XbzJ913bwWTmPwDyMV94Ui70jOJ/gCnNwAAoKF/QqZ0AMYKSdnU4tkbob/q3r1ybCRO/gpGRaY43MNpk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABPARGEpcaRE22t/BPnbRtEJ3DHOb4d6t3lMdcxVVxkigAAAAAOgAAAAAIAACAAAADnGRg7eP1ZNEJ92WJPzX1dkwHID4zAsnmqeOfy8ivGXCAAAABb0lKnUhL5v/FHmGkRZ5H2QcBFkQ8ShRKeAekiJmWqJEAAAACJbCdCzw87zUMIHA5W04oer5ur0nIGK8RnzV7riP8ND94MUlUd62brsiaZViMEi/TECNpgrh15XNB9kF/DITDz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAOHuUoma6/vTjG7hkocS5llhi50tASQrhQ9MmkpZ3KOQAAAAAOgAAAAAIAACAAAABmPfsIP2z+OguZbU7sE7HO/wTxaiijuXe1ybeNp8A3/SAAAAAeQoX+eU3kAydpVGJbiL/1LkqKZXzopMkmGABxduImYEAAAAC94AJH5tHXBCCFszbu3vcl+8OlCfNf8vvLzKEoz05Uvsy0BEZBXINUEZu4PVo8jT03zkvWC1snsbp/j+7Yx3qZ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -59,7 +59,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD9ygAoosjbtwWpU6xz9ZMkRhahPUYY9g7H3/ug7CgY4wAAAAAOgAAAAAIAACAAAABKq1fQOrFVsaJylMlYSA7Mr1w/oiqSK7uNZPy+uo4lkSAAAAAzM/VQpE1gch3ZC0+JlWCO97fWA2up5Fel0/6w+SPzaUAAAACsu0/IWTEs41+7ZHSpmEs6FF5oQD4Dysrl5JOZVnUoBaOT+YRxZwGk/BHGnFrSnDT3slpHeu9c1fKySQQrIxVO</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWwGKZkG9bES+F3kXhgovYAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKe0uPLisZw8Go9ibutEER0LYzmAKRvSgoowOsAupgygAAAAAOgAAAAAIAACAAAADudsMspOqFQHBPGvAGayRigflrNW4NKrsvDreQ5ZYvCyAAAACEjfy4inxjAthBFcgyfZIvmN/XKF0vAKYfovDlRB0CHEAAAADfZgwYMH2SQYVb3OvW8t7nfVbPx6Iqms9gFrthn3dbptZIJihiizCSEFvwrDemwTwBX4LzTJKKbP9SsM1+/GiC</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -79,7 +79,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{2C472551-89A5-4D07-BDD9-DAFFAF9CDCDA}"
-          SQLTask:SqlStatementSource="DELETE FROM warehouse.dimLote&#xA;DBCC CHECKIDENT ('warehouse.dimClientes', RESEED, 0);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE FROM warehouse.dimLote;&#xA;&#xA;DBCC CHECKIDENT ('warehouse.dimLote', RESEED, 0);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -555,39 +555,39 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="152,42"
+          Id="Package\Llenar dimLote"
+          TopLeft="232,187" />
+        <NodeLayout
           Size="157,42"
           Id="Package\Limpiar dimLote"
           TopLeft="166,69" />
-        <NodeLayout
-          Size="152,42"
-          Id="Package\Llenar dimLote"
-          TopLeft="232,188" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="244.5,111">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="63.5,77"
+              EndConnector="63.5,76"
               Start="0,0"
-              End="63.5,69.5">
+              End="63.5,68.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="0,34" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,34.5"
-                    Point2="0,38.5"
-                    Point3="4,38.5" />
+                    Point1="0,34"
+                    Point2="0,38"
+                    Point3="4,38" />
                   <mssgle:LineSegment
-                    End="59.5,38.5" />
+                    End="59.5,38" />
                   <mssgle:CubicBezierSegment
-                    Point1="59.5,38.5"
-                    Point2="63.5,38.5"
-                    Point3="63.5,42.5" />
+                    Point1="59.5,38"
+                    Point2="63.5,38"
+                    Point3="63.5,42" />
                   <mssgle:LineSegment
-                    End="63.5,69.5" />
+                    End="63.5,68.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -605,13 +605,13 @@ FROM ExactusERP6.disprobe.LOTE AS L;</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="125,42"
-          Id="Package\Llenar dimLote\Leer Lote"
-          TopLeft="314,152" />
-        <NodeLayout
           Size="154,42"
           Id="Package\Llenar dimLote\Llenar DimLote"
           TopLeft="546,237" />
+        <NodeLayout
+          Size="125,42"
+          Id="Package\Llenar dimLote\Leer Lote"
+          TopLeft="314,152" />
         <EdgeLayout
           Id="Package\Llenar dimLote.Paths[Salida de origen de ADO NET]"
           TopLeft="376.5,194">
