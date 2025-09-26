@@ -89,7 +89,7 @@ create table warehouse.dimClientes(
 
 create table warehouse.dimFecha (
 	fecha_key int primary key identity,
-	fecha_completa datetime,
+	fecha_completa date,
 	anio varchar(4),
 	mes int,
 	dia int,
@@ -143,10 +143,10 @@ create table warehouse.factIngresos(
 create table warehouse.factConsumos(
 	consumo_key int primary key identity,
 	consumo_id int not null,
-	fecha_id int not null,
-	articulo_id int not null,
-	bodega_id int not null,
-	lote_id int not null,
+	fecha_key int not null,
+	articulo_key int not null,
+	bodega_key int not null,
+	lote_key int not null,
 	detalle_consumo_id int not null,
 	fecha_hora_transaccion datetime not null,
 	tipo_movimiento varchar(15) default('Consumo'),
@@ -161,10 +161,10 @@ create table warehouse.factConsumos(
 	punto_medio_inv decimal(28,13) not null,
 	
 	-- llaves foraneas definidas
-	foreign key (fecha_id) references warehouse.dimFecha(fecha_key),
-	foreign key (articulo_id) references warehouse.dimArticulo(articulo_key),
-	foreign key (bodega_id) references warehouse.dimBodega(bodega_key),
-	foreign key (lote_id) references warehouse.dimLote(lote_key),
+	foreign key (fecha_key) references warehouse.dimFecha(fecha_key),
+	foreign key (articulo_key) references warehouse.dimArticulo(articulo_key),
+	foreign key (bodega_key) references warehouse.dimBodega(bodega_key),
+	foreign key (lote_key) references warehouse.dimLote(lote_key),
 );
 
 create table warehouse.factTraspaso(
